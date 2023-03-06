@@ -1,0 +1,221 @@
+{
+  "uuid": "513fcbc15143bd691a3f34cd399dba35",
+  "path": "Offline/Coon85",
+  "name": "Coon85",
+  "content": "",
+  "created_at": "2023-02-16 16:34:42",
+  "updated_at": "2023-03-06 09:55:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "602080e88ee81d394ebe061863420797",
+      "title": "Sheet",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a85e84ea4a0642cd963fc4713743b686": 1,
+        "a8a1ae1aebd2441a8b1f4bf5f97e6ae6": 1,
+        "6ed8554a1cfd4606a1d79ed30c085dce": 2,
+        "9506512b5ad74ffa9b6e5920ebfd905a": 5,
+        "ae4afbda23714b3a87da194dd1dd0a26": 1,
+        "d07bb137b7e6449096eb995df75a2729": 1,
+        "aecb1756e79b449c925dfc46a0f1447e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0402 (10uF)",
+          1,
+          "CAPACITOR (SMT) 0402",
+          "C1",
+          {
+            "BOM_Supplier Part": "712-1260-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3d95e2ea77954af48da0121ea38f882d",
+            "uuid": "6ed8554a1cfd4606a1d79ed30c085dce"
+          }
+        ],
+        [
+          "0402 (22uF)",
+          1,
+          "CAPACITOR (SMT) 0402",
+          "C2",
+          {
+            "BOM_Supplier Part": "712-1260-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3d95e2ea77954af48da0121ea38f882d",
+            "uuid": "6ed8554a1cfd4606a1d79ed30c085dce"
+          }
+        ],
+        [
+          "IN5819",
+          1,
+          "SMA/DO-214AC",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8fd0e056b2e14395b8df93d79d7b9cd9",
+            "uuid": "d07bb137b7e6449096eb995df75a2729"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "SPARKFUN-RESISTORS_0402-TIGHT",
+          "R1,R4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "62d890a6cf8d4a6d8c77c12bc6f4f02d",
+            "uuid": "9506512b5ad74ffa9b6e5920ebfd905a"
+          }
+        ],
+        [
+          "47",
+          2,
+          "SPARKFUN-RESISTORS_0402-TIGHT",
+          "R2,R3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "62d890a6cf8d4a6d8c77c12bc6f4f02d",
+            "uuid": "9506512b5ad74ffa9b6e5920ebfd905a"
+          }
+        ],
+        [
+          "2.2k",
+          1,
+          "SPARKFUN-RESISTORS_0402-TIGHT",
+          "R5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "62d890a6cf8d4a6d8c77c12bc6f4f02d",
+            "uuid": "9506512b5ad74ffa9b6e5920ebfd905a"
+          }
+        ],
+        [
+          "Attiny85-20su",
+          1,
+          "ATTINY85_01",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "eb6330e6994b48259928a1696eaea1ad",
+            "uuid": "a85e84ea4a0642cd963fc4713743b686"
+          }
+        ],
+        [
+          "BLE JDY-08",
+          1,
+          "JDY-08",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "JDY-08",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "58268c8bbc4448f7bba778bc8887f2d6",
+            "uuid": "aecb1756e79b449c925dfc46a0f1447e"
+          }
+        ],
+        [
+          "AMS1117 3.3V",
+          1,
+          "AMS1117 3.3V",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "349ec757b3284d608a640cf994276172",
+            "uuid": "a8a1ae1aebd2441a8b1f4bf5f97e6ae6"
+          }
+        ],
+        [
+          "USB PCB",
+          1,
+          "USB-A-PCB",
+          "USB1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c443af62208a41eebccc7c2b30b4736a",
+            "uuid": "ae4afbda23714b3a87da194dd1dd0a26"
+          }
+        ]
+      ],
+      "updateTime": 1678092942,
+      "createTime": 1676561683,
+      "histories": [],
+      "created_at": "2023-02-16 16:34:43",
+      "updated_at": "2023-03-06 09:55:42"
+    },
+    {
+      "uuid": "d4a16bd96c5d40485abdfadac942932d",
+      "puuid": "513fcbc15143bd691a3f34cd399dba35",
+      "title": "PCB_Coon85",
+      "filename": "PCB_Coon85.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d95e2ea77954af48da0121ea38f882d": 2,
+        "8fd0e056b2e14395b8df93d79d7b9cd9": 1,
+        "62d890a6cf8d4a6d8c77c12bc6f4f02d": 5,
+        "eb6330e6994b48259928a1696eaea1ad": 1,
+        "58268c8bbc4448f7bba778bc8887f2d6": 1,
+        "349ec757b3284d608a640cf994276172": 1,
+        "c443af62208a41eebccc7c2b30b4736a": 1
+      },
+      "BOM": [],
+      "updateTime": 1676801859,
+      "createTime": 1676801080,
+      "histories": [],
+      "created_at": "2023-02-19 11:04:40",
+      "updated_at": "2023-02-19 11:17:39"
+    },
+    {
+      "uuid": "00d5fb69b3e4b074ca26dd9c220aca35",
+      "puuid": "513fcbc15143bd691a3f34cd399dba35",
+      "title": "PCB_Coon85 without lines",
+      "filename": "PCB_Coon85 without lines.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d95e2ea77954af48da0121ea38f882d": 2,
+        "8fd0e056b2e14395b8df93d79d7b9cd9": 1,
+        "62d890a6cf8d4a6d8c77c12bc6f4f02d": 5,
+        "eb6330e6994b48259928a1696eaea1ad": 1,
+        "58268c8bbc4448f7bba778bc8887f2d6": 1,
+        "349ec757b3284d608a640cf994276172": 1,
+        "c443af62208a41eebccc7c2b30b4736a": 1
+      },
+      "BOM": [],
+      "updateTime": 1676801340,
+      "createTime": 1676801223,
+      "histories": [],
+      "created_at": "2023-02-19 11:07:03",
+      "updated_at": "2023-02-19 11:09:00"
+    }
+  ],
+  "sort": [],
+  "title": "Coon85",
+  "foldername": "Coon85",
+  "schfilename": "Coon85.json",
+  "schfilemtime": 1678092942088
+}
